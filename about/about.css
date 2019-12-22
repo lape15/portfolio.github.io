@@ -1,0 +1,156 @@
+body{
+    background-color:#EBB5D3 ;
+
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+     /* border: 3px solid blue; */
+   
+}
+
+div.right{
+    padding: 10px;
+}
+
+.left h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Ma Shan Zheng', cursive;font-family: 'Ma Shan Zheng', cursive;
+     color: #000000;
+     margin: 25px 16px;
+}
+
+.left h2:hover{
+            color: white;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /* text-align: center; */
+}
+nav li {
+    display: inline-block;
+    padding: 1.5rem;
+   
+}
+nav a {
+    text-decoration: none;
+    color: #73352E;
+    display: inline;
+    padding: 0.5rem 1rem;
+}
+nav a:hover {
+    background-color: black;
+    color: #ffffff
+}
+
+.container {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        align-content: stretch;
+        justify-content: space-between;
+       
+         height: 100%;
+         background-color: #FFD8D0;
+}
+.container div {
+    /* flex-basis: 25%; */
+    max-height: 50%;
+}
+  .container1{
+      /* display: flex;
+      flex-direction: row; */
+     display: inline;
+      flex-basis: 70%;
+      padding: 5px;
+      margin-left: 0 ;
+      /* text-align: center; */
+  
+  }
+
+  .container1 h2{
+         margin: 24px 2px;
+        font-weight: bold;
+        font-size: 2.5rem;
+        font-family: 'Ma Shan Zheng', cursive;
+        /* text-align: right; */
+       
+  }
+  .container1 p{
+        padding: 4px;
+        margin-top: 2px;
+        /* text-align: right; */
+        font-size: 1rem;
+        font-family: 'Rokkitt', serif;
+        line-height: 1.5rem;
+  }
+
+img{
+    width: 200px;
+    height: 45%;
+    float: left;
+    border: none;
+    border-radius: 50%;
+    margin:20px;
+    /* position: static; */
+    /* right: 28px */
+}
+ img:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}  
+
+blockquote{
+    text-align: right;
+    padding: 4px;
+        margin-top: 2px;
+        /* text-align: right; */
+        font-size: 1rem;
+        font-family: 'Rokkitt', serif;
+        line-height: 1.5rem;
+}
+.container2{
+    background-color:#F2865E ;
+    text-align: center;
+    color: black;
+    display: block;
+    max-height: 100%;
+    flex-basis: 25%;
+}
+
+.container2 h3{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Ma Shan Zheng', cursive;
+    
+}
+
+.container2 li{
+    display: block;
+}
+
+ .container2 ul li {
+    padding: 4px;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-left: 2px;
+    list-style-type: none;
+    font-size: 1rem;
+    letter-spacing: 0.20rem;
+
+} 
+

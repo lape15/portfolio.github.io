@@ -1,0 +1,123 @@
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    background-color:#EBB5D3 ;
+
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+     /* border: 3px solid blue; */
+   
+}
+
+div.right{
+    padding: 10px;
+}
+
+.left h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Ma Shan Zheng', cursive;
+     color: #000000;
+     margin: 25px 16px;
+}
+
+.left h2:hover{
+            color: white;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /* text-align: center; */
+}
+nav li {
+    display: inline-block;
+    padding: 1.5rem;
+   
+}
+nav a {
+    text-decoration: none;
+    color: #73352E;
+    display: inline;
+    padding: 0.5rem 1rem;
+}
+nav a:hover {
+    background-color: black;
+    color: #ffffff
+}
+
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+    /* border: 5px solid red; */
+    background-color: white;
+}
+
+.screen{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color:#000000;
+    color: #ffffff;
+    padding: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}
+
+.calc_btn_row{
+    display: flex;
+   align-content: stretch;
+   justify-content: space-between;
+   margin-bottom: 0;
+}
+
+.calc_btn{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    /* padding: 20px; */
+    border: 0.5px solid black;
+    height: 100px;
+    flex-basis: 24.5%;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.calc_btn:hover {
+    background-color:  #ebebeb;
+}
+.calc_btn:active{
+    background-color: #bbbcbe;
+}
+.calc_btn:last-child{
+    background-color:#df974c ;
+    color: #ffffff;
+}
+.calc_btn:last-child:hover {
+    background-color: #dfb07e;
+}
+
+.double{
+    flex-basis:51% ;
+}
+.tripple{
+    flex-basis: 75.5%;
+}
