@@ -106,3 +106,9 @@ li,p{
 .container a:active {
     color: #EBB5D3;
 }
+
+@media only screen and (max-width: 600px) {
+    body{
+        max-width: 50%;
+    }
+}
