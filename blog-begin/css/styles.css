@@ -8,6 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     /* display: flex;
     flex-direction: row; */
+    max-width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
