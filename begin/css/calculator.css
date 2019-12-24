@@ -65,7 +65,7 @@ nav a:hover {
     max-width: 400px;
     margin: 0 auto;
     /* border: 5px solid red; */
-    background-color: white;
+    background-color: #000000;
 }
 
 .screen{
@@ -84,21 +84,21 @@ nav a:hover {
     display: flex;
    align-content: stretch;
    justify-content: space-between;
-   margin-bottom: 0;
+   margin-bottom: 0.5%;
 }
 
 .calc_btn{
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #d8d8d8;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 2.5rem;
     /* padding: 20px; */
-    border: 0.5px solid black;
+    border: none;
     height: 100px;
     flex-basis: 24.5%;
     cursor: pointer;
-    border-radius: 0;
+    /* border-radius: 0; */
 }
 
 .calc_btn:hover {
@@ -116,10 +116,10 @@ nav a:hover {
 }
 
 .double{
-    flex-basis:51% ;
+    flex-basis:49.7% ;
 }
 .tripple{
-    flex-basis: 75.5%;
+    flex-basis: 74.8%;
 }
 @media only screen and (max-width: 300px) {
     .wrapper{
