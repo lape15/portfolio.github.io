@@ -64,7 +64,7 @@ nav a:hover {
     flex-flow: row nowrap;
     flex-basis: 50%;
     justify-content: space-between;
-    background-image: url("https://pixabay.com/get/52e7d5474956ae14f1dc8460825668204022dfe05457784c762d7ed0/venice-4704342_640.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2019/12/28/14/00/chrome-hill-4724723_1280.jpg");
     text-align: center;
     padding: 20px
 }
